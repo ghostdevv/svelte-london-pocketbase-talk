@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { pocketbase } from '$lib/pocketbase';
-	// import WordCloud from 'svelte-d3-cloud';
+	import { countWords } from '$lib/count.js';
 	import { enhance } from '$app/forms';
 	import { onMount } from 'svelte';
-	import { countWords } from '$lib/count.js';
 
 	export let data;
 

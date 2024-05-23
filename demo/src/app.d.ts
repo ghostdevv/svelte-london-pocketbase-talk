@@ -10,8 +10,4 @@ declare global {
 	}
 }
 
-declare module 'svelte-d3-cloud' {
-	export default class X {}
-}
-
 export {};
